@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #1d1e22, black, #1d1e22); 
+}
+
+#headline {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #001f3f;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 15px #002;
+}
+
+.button {
+  height: 40;
+  font-size: 28px;
+  font-family: 'Play', sans-serif;
+  color: #a3d1e3;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #a3d1e3;
+  color: #001f3f;
+  margin-top: 80px;
+}
+
+#anakinBox {
+  width: 335px;
+  height: 445px;
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 25px;
+  border-radius: 0 0 25px 0;
+}
+
+.anakinText {
+  margin: 0 0 0 50px;
+  font-family: 'Special Elite', cursive;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+}
+
+#anakinSmall {
+  margin-top: 220px;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.textBox {
+  width: 425px;
+  padding: 0 20px;
+}
+
+p, ul {
+  font-size: 15px;
+  font-family: 'Play', sans-serif;
+  line-height: 1.5;
+}
+
+.intro {
+  font-size: 18px;
+}
+
+p.intro {
+  padding-top: 60px;
+}
+
+.quoteBox {
+  width: 335px;
+  background-color: #001f3f;
+  margin-top: 25px;
+  border-radius: 0 25px 25px 0;
+}
+
+.quoteText {
+  font-family: 'Special Elite', cursive;
+  font-size: 44px;
+  color: white;
+  line-height: 1.55;
+  font-weight: 400;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.quoteText::before {
+  content: '“';
+  display: block;
+  line-height: 0;
+  font-size: 120px;
+  position: relative;
+  left: -50px;
+  top: 23px;
+  z-index: 0;
+}
+
+h1 {
+  font-family: 'Play', sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding-top: 80px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
+  font-size: 21px;
+  line-height: 1.4;
+  margin-top: 44px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #a3d1e3;
+}
+
+.button a:hover {
+  color: white;
+}
